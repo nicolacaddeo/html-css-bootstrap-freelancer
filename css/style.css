@@ -7,7 +7,6 @@
 
 .nc-bg-green {
     background-color: #1abc9c;
-    height: 400px;
 }
 
 .nc-text-white {
@@ -25,12 +24,37 @@
 /****************************
     //PERSONAL STYLE CLASSES
 *****************************/
-
-#avatar-container {
-    width: 200px;
-}
-
+/** Header **/
 .navbar-toggler i {
     color: #888;
     font-size: 1.5rem;
 }
+
+/** //Header **/
+
+/** "Start Bootstrap" section*/
+
+#start {
+    color: #fff;
+}
+
+#nc-avatar {
+    max-width: 200px;
+}
+
+.bi-star-fill {
+    font-size: 2rem;
+
+}
+
+.nc-star::before,
+.nc-star::after {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+/** //"start bootstrap" section*/
