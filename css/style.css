@@ -67,3 +67,15 @@
 .black-border .bi-star-fill {
     color: #2c3e50;
 }
+
+/** About section **/
+.nc-star.small-wings::before,
+.nc-star.small-wings::after {
+    width: 7%;
+}
+
+.download-btn {
+    font-size: 1.1rem;
+}
+
+/** //About section **/
