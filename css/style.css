@@ -1,21 +1,36 @@
-header {
-    height: 80px;
+/**************************
+    PERSONAL STYLE CLASSES
+***************************/
+.nc-bg-dark {
     background-color: #2c3e50;
 }
 
-header div {
-    color: #fff;
-}
-
-.nc {
-    height: 80px;
-}
-
-main section:first-child {
+.nc-bg-green {
     background-color: #1abc9c;
     height: 400px;
 }
 
+.nc-text-white {
+    color: #fff;
+}
+
+.nc-border-white {
+    border-color: #fff;
+}
+
+.nc-margin-r-0 {
+    margin-right: 0;
+}
+
+/****************************
+    //PERSONAL STYLE CLASSES
+*****************************/
+
 #avatar-container {
     width: 200px;
+}
+
+.navbar-toggler i {
+    color: #888;
+    font-size: 1.5rem;
 }
