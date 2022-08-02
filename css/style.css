@@ -5,6 +5,10 @@
     background-color: #2c3e50;
 }
 
+.nc-dark-text {
+    color: #2c3e50;
+}
+
 .nc-bg-green {
     background-color: #1abc9c;
 }
@@ -79,3 +83,23 @@
 }
 
 /** //About section **/
+
+/** Contact Me **/
+.nc-input-box {
+    border: none;
+    padding-top: 0;
+    border-bottom: 1px solid #ced4da;
+}
+
+.nc-green-btn {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.nc-green-btn:hover {
+    background-color: #159d82;
+}
+
+/** //Contact Me **/
+
+#contact {}
