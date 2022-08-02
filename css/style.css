@@ -102,4 +102,17 @@
 
 /** //Contact Me **/
 
-#contact {}
+
+
+
+
+/********** DEBUG **********/
+footer section:first-child {
+    background-color: #3a546d;
+    min-height: 400px;
+}
+
+footer section:last-child {
+    background-color: #2c3e50;
+    min-height: 100px;
+}
