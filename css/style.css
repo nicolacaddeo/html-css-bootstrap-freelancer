@@ -5,16 +5,20 @@
     background-color: #2c3e50;
 }
 
-.nc-dark-text {
-    color: #2c3e50;
-}
-
 .nc-bg-green {
     background-color: #1abc9c;
 }
 
-.nc-text-white {
+.nc-dark-text {
+    color: #2c3e50;
+}
+
+.nc-white-text {
     color: #fff;
+}
+
+.nc-green-text {
+    color: #1abc9c;
 }
 
 .nc-border-white {
@@ -23,6 +27,10 @@
 
 .nc-margin-r-0 {
     margin-right: 0;
+}
+
+.nc-small-container {
+    max-width: 450px;
 }
 
 /****************************
@@ -119,16 +127,20 @@
     background-color: #fff;
 }
 
+.nc-link:hover {
+    color: #159d82;
+}
+
 /** //Footer **/
 
 
 /********** DEBUG **********/
 footer section:first-child {
     background-color: #3a546d;
-    min-height: 400px;
+
 }
 
 footer section:last-child {
     background-color: #2c3e50;
-    min-height: 100px;
+
 }
